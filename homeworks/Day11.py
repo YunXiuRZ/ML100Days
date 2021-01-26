@@ -9,7 +9,7 @@ q_df = pd.DataFrame(
     columns=['Sex','Profession'])
 
 #1
-q_df.fillna('other')
+q_df = q_df.fillna('other')
 print(q_df)
 
 #2
