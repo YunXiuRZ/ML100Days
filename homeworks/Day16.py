@@ -10,4 +10,4 @@ print(series)
 print("")
 
 #2
-print(series.mean())
+print(series.resample('W').mean())
